@@ -1,0 +1,18 @@
+.card-one{
+    background-image:url(Images/2.png);
+    background-size:cover;
+    background-repeat:no-repeat;
+    object-fit:cover; 
+}
+.card-two{
+    background-image:url(Images/3.png);
+    background-size:cover;
+    background-repeat:no-repeat;
+    object-fit:cover; 
+}
+.card-three{
+    background-image:url(Images/4.png);
+    background-size:cover;
+    background-repeat:no-repeat;
+    object-fit:cover; 
+}
