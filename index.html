@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Third Assignment</title>
+    <!-- tailwind and daisyui link  -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- google fonts link  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,700&family=Inter:wght@200;400;500;600;700;800;900&family=Lato:ital,wght@0,400;0,700;1,400;1,700&family=Manrope:wght@200;300;400;500;600;700;800&family=Merriweather:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Poppins:wght@400;500;600;700;800;900&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+        <!-- font awesome link  -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- custome style  -->
+        <style>
+            .font-manrope{
+                font-family: 'Manrope', sans-serif;
+            }
+        </style>
+        <!-- custome color  -->
+        <script>
+            tailwind.config = {
+              theme: {
+                extend: {
+                  colors: {
+                    clifford: '#da373d',
+                    'color': '#FF4240',
+                    'tuch-color': '#e6403e',
+                  }
+                }
+              }
+            }
+          </script>
+</head>
+
+<body class="font-manrope">
+    <section class="container mx-auto md:mt-6 lg:px-20 px-4">
+        <div>
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                  <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                      <svg xmlns="http://www.w3.org/2000/svg" class=" h-5 w-5 md:h-10 md:w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                    </div>
+                    <ul tabindex="0" class="menu text-base font-normal menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 ">
+                        <li class="text-color hover:text-tuch-color"><a>Home</a></li>
+                        <li class="hover:text-tuch-color"><a>About</a></li>
+                        <li class="hover:text-tuch-color"><a>Pages</a></li>
+                        <li class="hover:text-tuch-color"><a>Blog</a></li>
+                        <li class="hover:text-tuch-color"><a>Contact</a></li>
+                      
+                    </ul>
+                  </div>
+                  <a class="  text-xl md:text-4xl font-extrabold">Hockey<span class="text-color">’</span>s</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal text-base font-normal px-1">
+                    <li class="text-color hover:text-tuch-color"><a>Home</a></li>
+                    <li class="hover:text-tuch-color"><a>About</a></li>
+                    <li class="hover:text-tuch-color"><a>Pages</a></li>
+                    <li class="hover:text-tuch-color"><a>Blog</a></li>
+                    <li class="hover:text-tuch-color"><a>Contact</a></li>
+                     
+                     
+                  </ul>
+                </div>
+                <div class="navbar-end  ">
+                    <i class="fa-solid fa-magnifying-glass hidden md:flex mr-4 text-lg text-[#89898B]"></i>
+                   
+                  <button class="btn bg-color text-white md:text-xl md:font-bold hover:bg-tuch-color ">Get Ticket</button>
+                </div>
+              </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
